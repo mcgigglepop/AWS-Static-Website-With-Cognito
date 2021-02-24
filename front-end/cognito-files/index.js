@@ -85,7 +85,7 @@ CognitoLogin.map = CognitoLogin.map || {};
 	
     $(function onDocReady() {
         // $('#request').click(handleRequestClick);
-        $('#signOut').click(function() {
+        $('#signout').click(function() {
             CognitoLogin.signOut();
             alert("You have been signed out.");
             window.location = "./login.html";
